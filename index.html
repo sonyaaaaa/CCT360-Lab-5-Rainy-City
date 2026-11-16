@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainy City</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <!-- Title -->
+        <header>
+            <h1>Rainy City</h1>
+            <p>Toronto-Inspired Rain Sounds</p>
+        </header>
+
+
+        <!-- Scene Buttons -->
+        <div class="scene-buttons">
+
+            <button onclick="showScene(0)">Window</button>
+
+            <button onclick="showScene(1)">City</button>
+
+            <button onclick="showScene(2)">Thunder</button>
+
+        </div>
+
+
+        <!-- Scene Image -->
+        <img id="sceneImage"
+             class="scene-image"
+             src="images/window.jpg"
+             alt="Raindrops on a window">
+
+        <h2 id="sceneTitle">Rain on the Window</h2>
+
+
+        <!-- Audio Player -->
+        <section class="player">
+
+            <h3 id="audioTitle">Rain on the Window</h3>
+
+            <audio id="sceneAudio" controls src="audio/window.mp3">
+                Your browser does not support audio playback.
+            </audio>
+
+        </section>
+
+
+        <!-- Media Credits -->
+        <footer>
+
+            <h3>Media Credits</h3>
+
+            <p>Audio:</p>
+
+            <p>
+                <a href="https://freesound.org/people/Nickisawsome74/sounds/669621/">
+                    Rain on Window — Nickisawsome74
+                </a>
+            </p>
+
+            <p>
+                <a href="https://freesound.org/people/RyanKingArt/sounds/607228/">
+                    Raining in the City — RyanKingArt
+                </a>
+            </p>
+
+            <p>
+                <a href="https://freesound.org/people/TRP/sounds/567728/">
+                    Distant Rolling Thunder — TRP
+                </a>
+            </p>
+
+            <p>Images:</p>
+
+            <p>
+                <a href="https://commons.wikimedia.org/wiki/File:Lightning_Pritzerbe_01_(MK).jpg">
+                    Thunder — Mathias Krumbholz (CC BY-SA 3.0)
+                </a>
+            </p>
+
+            <p>
+                <a href="https://www.istockphoto.com/videos/street-dark-rain-city">
+                    City — iStock
+                </a>
+            </p>
+
+            <p>
+                <a href="https://stock.adobe.com/search?k=rain+window">
+                    Window — Adobe Stock
+                </a>
+            </p>
+
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e7edf2;
+    color: #273541;
+}
+
+main {
+    max-width: 830px;
+    margin: 42px auto;
+    padding: 0 22px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+header p {
+    color: #62717e;
+    margin: 0;
+    font-size: 15px;
+}
+
+/* Scene Buttons */
+
+.scene-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 26px;
+    border: 1px solid #9aabb8;
+    background: #fff;
+    color: #273541;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover,
+button.selected {
+    background: #2e465a;
+    color: white;
+}
+
+/* Scene Image */
+
+.scene-image {
+    display: block;
+    width: 100%;
+    height: 395px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 19px;
+    font-weight: normal;
+    margin: 18px 0 28px;
+}
+
+/* Audio Player */
+
+.player {
+    padding: 22px;
+    background: #fff;
+    border-radius: 7px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 15px;
+    margin: 0 0 14px;
+}
+
+audio {
+    width: 100%;
+    max-width: 550px;
+}
+
+/* Media Credits */
+
+footer {
+    border-top: 1px solid #bdc9d3;
+    margin-top: 40px;
+    padding: 22px 0 32px;
+    font-size: 12px;
+    line-height: 1.7;
+    color: #596775;
+}
+
+footer p {
+    margin: 7px 0;
+}
+
+footer a {
+    color: #315a76;
+}
+
+footer .small {
+    font-size: 11px;
+}
+
+/* Mobile Layout */
+
+@media (max-width: 580px) {
+    main {
+        margin: 26px auto;
+        padding: 0 14px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    button {
+        padding: 10px 15px;
+    }
+
+    .scene-image {
+        height: 245px;
+    }
+}
